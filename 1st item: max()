@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+void max(){
+    int x, y;
+    cin>>x;
+    cin>>y;
+    if(x>y)
+        cout<<x;
+    else
+        cout<<y;
+    }
+int main(){
+    cout<<"Input two values\n";
+    max();
+return 0;}
